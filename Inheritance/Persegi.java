@@ -1,4 +1,4 @@
-package Tugas4;
+package Inheritance;
 
 public class Persegi extends BangunDatar {
   private double Sisi;
