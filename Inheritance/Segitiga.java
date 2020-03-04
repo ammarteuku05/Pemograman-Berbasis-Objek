@@ -19,10 +19,10 @@ public class Segitiga extends BangunDatar{
         return this.a * this.t/2;
     }
     public double hitungsisimiring(){
-        return Math.sqrt(Math.pow(this.a,2)* this.t);
+        return Math.sqrt(Math.pow(this.a/2,2.0)+ Math.pow(this.t, 2.0));
     }
     public double Keliling(){
-        return 2 * this.a * hitungsisimiring()* this.t;
+        return this.a  + 2 * hitungsisimiring();
     }
 }
 
