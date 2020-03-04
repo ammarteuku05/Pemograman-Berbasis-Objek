@@ -1,16 +1,31 @@
 package Inheritance;
 
 public class Balok extends PersegiPanjang {
-    private double tinggi;
+        private double t,p,l;
 
-    public double getTinggi() {
-        return tinggi;
+    @Override
+    public double getP() {
+        return p;
     }
-
-    public void setTinggi(double tinggi) {
-        this.tinggi = tinggi;
+    @Override
+    public void setP(double p) {
+        this.p = p;
+    }
+    @Override
+    public double getL() {
+        return l;
+    }
+    @Override
+    public void setL(double l) {
+        this.l = l;
+    }
+    public double getT() {
+        return t;
+    }
+    public void setT(double t) {
+        this.t = t;
     }
     public double Volume(){
-        return Luas() * tinggi;
+        return this.p * this.l * this.t;
     }
 }
