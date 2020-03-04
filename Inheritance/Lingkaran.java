@@ -1,4 +1,4 @@
-package Tugas4;
+package Inheritance;
 
 public class Lingkaran extends BangunDatar{
    private double jariJari;
