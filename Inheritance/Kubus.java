@@ -1,4 +1,4 @@
-package Tugas4;
+package Inheritance;
 
 public class Kubus extends Persegi {
     private double Sisi;
