@@ -1,4 +1,4 @@
-package Tugas4;
+package Inheritance;
 import java.lang.Math;
 public class Segitiga extends BangunDatar{
     double a;
