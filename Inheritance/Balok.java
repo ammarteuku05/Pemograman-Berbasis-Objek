@@ -1,4 +1,4 @@
-package Tugas4;
+package Inheritance;
 
 public class Balok extends PersegiPanjang {
     private double tinggi;
