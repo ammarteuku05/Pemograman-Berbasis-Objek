@@ -1,4 +1,4 @@
-package Tugas4;
+package Inheritance;
 import java.util.Scanner;
 
 public class Main {
