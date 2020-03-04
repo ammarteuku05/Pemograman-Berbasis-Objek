@@ -11,6 +11,6 @@ public class Kubus extends Persegi {
         this.Sisi = Sisi;
     }
     public double VolumeKubus() {
-        return Luas() * this.Sisi;
+        return this.Sisi*this.Sisi * this.Sisi;
     }
 }
