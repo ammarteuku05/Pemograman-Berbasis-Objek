@@ -1,4 +1,4 @@
-package Tugas4;
+package Inheritance;
 public class Sillinder extends Lingkaran{
     private double Tinggi;
     public double getTinggi() {
